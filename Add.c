@@ -3,6 +3,12 @@ void add(int a,int b)
 {
     printf("%d",  a + b);
 }
+
+void multiply(int a,int b)
+{
+    printf("%d",  a * b);
+}
+
 int main()
 {
   //Initialize variable and rename
@@ -12,5 +18,6 @@ int main()
     printf("Enter two operands: ");
     scanf("%d %d", &first_num, &second_num);
     add(first_num,second_num);
+    multiply(first_num,second_num);
     return 0;
 }
